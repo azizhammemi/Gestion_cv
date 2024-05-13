@@ -1,0 +1,31 @@
+.create-cv {
+    background-color: #f2f2f2; /* Light gray background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding shadow for depth */
+  }
+  
+  .upload-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .upload-button:hover {
+    background-color: #45a049; /* Darker shade of green on hover */
+  }
+  
+  .types {
+    margin-left: 10px;
+  }
+  .custom-file-input {
+    background-image: url('https://static.jobscan.co/images/homePage/document.svg');
+    /* Add any additional styles for the background image */
+  }
