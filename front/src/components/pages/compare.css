@@ -1,0 +1,133 @@
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.text-area {
+    width: 100%; /* Prend toute la largeur disponible */
+    height: 200px; /* Hauteur augmentée */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px; /* Espacement ajouté en bas */
+}
+
+.file-input {
+    width: 100%; /* Prend toute la largeur disponible */
+}
+
+.submit-button {
+    background-color: #4CAF50; /* Green background color */
+    border: none; /* No border */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* No text decoration */
+    display: inline-block; /* Inline display */
+    font-size: 16px; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Box shadow */
+    transition: 0.3s; /* Smooth transition */
+    text-transform: uppercase; /* Uppercase text */
+    height: 2%;
+    margin-top: 3%;
+    width: 10%;
+  
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: red;
+}
+
+.output-container {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.containerScore {
+    text-align: right;
+    font-size: 150%;
+    margin-left: auto; /* Centrer le contenu */
+    margin-right: auto; /* Centrer le contenu */
+    margin-top: 10px; /* Espacement ajouté en haut */
+}
+#text {
+	width:90%;
+	overflow:hidden;
+	background-color:#FFF;
+	color:#222;
+	font-family:Courier, monospace;
+	font-weight:normal;
+	font-size:24px;
+	resize:none;
+	line-height:40px;
+	padding-left:100px;
+	padding-right:100px;
+	padding-top:45px;
+	padding-bottom:34px;
+	background-image:url(https://static.tumblr.com/maopbtg/E9Bmgtoht/lines.png), url(https://static.tumblr.com/maopbtg/nBUmgtogx/paper.png);
+	background-repeat:repeat-y, repeat;
+	-webkit-border-radius:12px;
+	border-radius:12px;
+	-webkit-box-shadow: 0px 2px 14px #000;
+	box-shadow: 0px 2px 14px #000;
+	border-top:1px solid #FFF;
+	border-bottom:1px solid #FFF;
+}
+#title {
+	background-color:transparent;
+	border-bottom:3px solid #FFF;
+	color:#FFF;
+	font-size:20px;
+	font-family:Courier, monospace;
+	height:28px;
+	font-weight:bold;
+	width:220px;
+}
+.custom-file-upload {
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: white;
+    border: 2px solid #3498db;
+    border-radius: 4px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 25%;
+    margin-left: 20%;
+    margin-right: 2%;
+    margin-top: 3%;
+  }
+  
+  .custom-file-upload:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+    color: #fff;
+  }
+  
+  .custom-file-upload span {
+    margin-right: 10px;
+  }
+  
+  .file-input {
+    display: none;
+  }
+  #container1{
+    display:flex;
+    flex-direction: row;
+  }
+  h4{
+    color:white;
+  }
+  

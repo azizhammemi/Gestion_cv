@@ -1,0 +1,10 @@
+#containerImage{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+    .imgg{
+        border-radius: 50%;
+        width: 25%;
+        height: 25%;
+    }

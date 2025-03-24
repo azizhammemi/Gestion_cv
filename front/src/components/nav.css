@@ -1,0 +1,52 @@
+.button-warning {
+    background-color: #ffcc00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .button-warning:hover {
+    background-color: #ff9900;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  .flexcvone{
+    display: flex;
+    gap: 10px; /* Adds 10px space between child elements */
+
+  }
+  .button-primary {
+    background-color: #007bff; /* Primary blue color */
+    color: white;              /* White text for contrast */
+    font-family: 'Arial', sans-serif; /* Clean, modern font */
+    padding: 12px 24px;        /* More padding for a larger, clickable button */
+    border-radius: 8px;        /* Rounded corners for a modern, soft look */
+    border: none;              /* No border by default */
+    font-size: 16px;           /* Font size to ensure readability */
+    cursor: pointer;          /* Pointer cursor to indicate interactivity */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+    text-align: center;        /* Center the text inside the button */
+    display: inline-block;     /* Align with other elements inline */
+    text-decoration: none;     /* Remove any default link text decoration */
+  }
+  
+  .button-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05);     /* Slight scaling effect on hover */
+  }
+  
+  .button-primary:active {
+    background-color: #004085; /* Darker blue when clicked */
+    transform: scale(1);       /* Reset scaling when clicked */
+  }
+  
+  .button-primary:focus {
+    outline: none;             /* Remove default outline */
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Focus ring with primary color */
+  }
+  
